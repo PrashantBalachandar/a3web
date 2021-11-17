@@ -1,9 +1,7 @@
 /*just a demo*/
-#last {
-    padding-right: 10px;
-}
 .image {
     padding-left:10px;
+    padding-right: 10px;
     width:30;
     height:30;
     float:left;
