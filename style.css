@@ -8,14 +8,13 @@
     background-color: black;
 }
 .position {
-    padding-left: 40%;
-    
-
+    padding-left: 40%; 
 }
 .text {
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     background-color:black;
+    text-align: center;
     
 }
 footer {
