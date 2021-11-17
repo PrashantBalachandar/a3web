@@ -4,10 +4,11 @@
     width:30;
     height:30;
     float:left;
-    background-color: black;
 }
 .position {
-    padding-left: 50%;
+    padding-left: 40%;
+    background-color: black;
+
 }
 footer {
     background-color: black;
