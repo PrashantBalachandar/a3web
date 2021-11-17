@@ -4,16 +4,19 @@
     width:30;
     height:30;
     float:left;
+    background-color: black;
 }
 .position {
     padding-left: 40%;
-    background-color: black;
+    
 
+}
+.text {
+    font-size: 5px;
+    background-color: black;
 }
 footer {
     background-color: black;
-    text-align: center;
-    color: white;
 }
 /*this is Xin here*/
 /* Angel */
