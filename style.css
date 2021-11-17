@@ -6,6 +6,9 @@
     float:left;
     background-color: black;
 }
+.position {
+    padding-left: 50%;
+}
 footer {
     background-color: black;
     text-align: center;
