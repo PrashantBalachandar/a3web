@@ -1,4 +1,8 @@
 /*just a demo*/
+#last {
+    padding-right: 10px;
+    background-color: black;
+}
 .image {
     padding-left:10px;
     width:30;
