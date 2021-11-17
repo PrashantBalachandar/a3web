@@ -8,17 +8,19 @@
     background-color: black;
 }
 .position {
-    padding-left: 40%; 
+    padding-left: 43%; 
 }
 .text {
     color: white;
     font-size: 15px;
     background-color:black;
     text-align: center;
-    margin-bottom: 0px;
 } 
 footer {
     background-color: black;
+}
+p {
+    margin-bottom: 0px;
 }
 /*this is Xin here*/
 /* Angel */
