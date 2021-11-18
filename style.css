@@ -1,3 +1,47 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow:hidden;
+	background-color:none;
+}
+
+/*float to right*/
+li{
+	float: right;
+}
+
+/*set font, margin, display as block, color. padding, text-align*/
+li a{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:auto;
+	display: block;
+	color: cadetblue;
+	text-align: center;
+	padding: 16px 20px;
+	text-decoration: none;
+}
+
+/*make the list active, set background color*/
+li a:hover:not(.active){
+	background-color:darkseagreen;
+}
+
+/*set the active background color*/
+.active{
+	background-color:rgb(205,164,156);
+}
+
+li.logo{
+	float:left;
+}
+	
+@media screen and (max-width: 600px) {
+	li.right,
+	li {float: none;}
+}
+	
+
 .image {
     padding-left:10px;
     padding-right: 10px;
