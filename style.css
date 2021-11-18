@@ -1,89 +1,35 @@
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding:0;
-	overflow:hidden;
-	background-color:none;
-}
-
-/*float to right*/
-li{
-	float: right;
-}
-
-/*set font, margin, display as block, color. padding, text-align*/
-li a{
-	font-family: Arial, Helvetica, sans-serif;
-	margin-left:auto;
-	display: block;
-	color: cadetblue;
+/* Used colors from https://www.w3schools.com/css/css_colors.asp to give color to the heading and text alignment from https://www.w3schools.com/css/css_text_align.asp to align the text */
+h1 {
+	color: black;
 	text-align: center;
-	padding: 16px 20px;
-	text-decoration: none;
 }
-
-/*make the list active, set background color*/
-li a:hover:not(.active){
-	background-color:darkseagreen;
+/* Used background-color from https://www.w3schools.com/css/css_background.asp to give background color to the website.*/
+body {
+	background-color: lightskyblue;
 }
-
-/*set the active background color*/
-.active{
-	background-color:rgb(205,164,156);
+/* Used margins from https://www.w3schools.com/css/css_margin.asp to give spacing on outer side and used font family from https://www.w3schools.com/css/css_font.asp for the body. */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-li.logo{
-	float:left;
+/* Used overflow property from https://www.w3schools.com/css/css_overflow.asp to controls what happens to content that is too big to fit into an area.*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
 }
-	
-@media screen and (max-width: 600px) {
-	li.right,
-	li {float: none;}
+/* Used float from https://www.w3schools.com/css/css_float.asp to either put it on left or right side and Used padding from https://www.w3schools.com/css/css_padding.asp to give space inside the border */
+/* Used text decoration from https://www.w3schools.com/css/css_text_decoration.asp to set or remove decorations from text and Used font size from https://www.w3schools.com/css/css_font_size.asp to set the size of the text.*/
+.topnav a {
+  float: left;
+  margin-left: 180px;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 20px 60px;
+  text-decoration: none;
+  font-size: 17px;
 }
-	
-
-.image {
-    padding-left:10px;
-    padding-right: 10px;
-    width:30;
-    height:30;
-    float:left;
-    background-color: black;
+/* Used hover feature from https://www.w3schools.com/css/css_navbar_horizontal.asp to highlight whenever cursor hovers over it on the website. */
+.topnav a:hover {
+  background-color: coral;
+  color: black;
 }
-.position {
-    padding-left: 43%; 
-}
-.text {
-    color: white;
-    font-size: 15px;
-    background-color:black;
-    text-align: center;
-} 
-footer {
-    background-color: black;
-} 
- p {
-    margin-bottom: 0px;
-}
-
-/* Angel Style */
-.signature
-{
-    color: white;
-    background-color: #333;
-    text-align: center;
-    padding: 15px;
-}
-.main_footer
-{
-   padding: 25px;
-   background-color: #ccc;
-   color: white;
-   margin: 0px;
-   position: relative;
-}
-body
-{
-    margin: 0;
-}
-/*  Angel Style Ends  */
