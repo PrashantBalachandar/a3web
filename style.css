@@ -236,16 +236,24 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .position {
     padding-left: 43%;
-    }
-    .Disclaimer {
+}
+.image {
+    padding-left:10px;
+    padding-right: 10px;
+    width:30;
+    height:30;
+    float:left;
+    background-color: black;
+}
+.Disclaimer {
     color: white;
     font-size: 15px;
     background-color:black;
     text-align: center;
-    }
-    footer {
+}
+footer {
     background-color: black;
-    }
-    p {
-    margin-bottom: 0px;
-    }
+}
+p {
+    margin-bottom: 0px;    
+}
