@@ -263,10 +263,10 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}*/
 
 .position {
-    padding-left: 40%;
-    width: 100%;
+    padding-left:inherit;
 }
 .image {
+    display:flex;
     padding-left:10px;
     padding-right: 10px;
     width:70px;
@@ -281,8 +281,8 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
     text-align: center;
 }
 footer {
-    background-color: #333;
-    max-width: 100%;
+    display: flex;
+    background-color: rgb(3, 3, 3);
 }
 p {
     margin-bottom: 10px;    
