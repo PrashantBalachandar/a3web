@@ -216,3 +216,7 @@ li.dropdown {
     display: flex;
     background-color: #333;
 }
+@media screen and (max-width: 600px) {
+    li.right,
+    li {float: none;}
+}
