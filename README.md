@@ -32,10 +32,10 @@ Angel Wandum - (Due by 19th to 22nd November)
 3. General Content
 
 Aesha Deveshkumar Dave - ( Due by 19th to 21st November)
-1. Layout design with Images/GIF
-2. Header
+1. Layout design with Images/GIF - Designing the arrangement and sort out relative images according to design
+2. Header - web browser responsive code
 3. General Content 
-4. Logo Design
+4. Logo Design - Designing and arranging the logo according to color scheme and layout design
 
 Our Website (WIP): https://prashantbalachandar.github.io/a3web/
 Source: https://www.slrconsulting.com/ (Reference Website)
