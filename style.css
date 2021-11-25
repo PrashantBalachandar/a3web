@@ -253,3 +253,6 @@ li.dropdown {
   .dropdown:hover .dropdown-content {
     display: block;
 }
+.Logo {
+    width="auto" height="50"
+}
