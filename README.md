@@ -35,6 +35,7 @@ Aesha Deveshkumar Dave
 1. Layout design with Images/GIF
 2. Header
 3. General Content 
+4. Logo Design
 
 Our Website (WIP): https://prashantbalachandar.github.io/a3web/
 Source: https://www.slrconsulting.com/ (Reference Website)
