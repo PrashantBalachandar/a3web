@@ -37,23 +37,13 @@ h1,h2,h3,h4,h5,h6 {
     font-weight:400;
     margin:10px 0
 }
-/* w3-center changed to secondgridcenter, headCenter, w3-center into firstgridcenter */
-
-.headcenter .firstgridcenter .secondgridcenter {
+.headcenter .secondgridcenter {
     display:inline-block;
     width:auto
 }
-.headcenter.firstgridcenter.secondgridcenter .w3-bar-item {
+.headcenter.secondgridcenter {
     text-align:center
 }
-.w3-block {
-    display:block;
-    width:100%;
-}
-/* w3-row changed to secondgridrow */
-/* w3-container changed to secondgridcontainer, container-first-grid */
-/* w3-row-padding into row-padding */ 
-
 .Head-container:after,.Head-container:before,.secondgridcontainer:after,.secondgridcontainer:before,
 .firstgridcontainer:after,.firstgridcontainer:before,.secondgridrow:after,
 .secondgridrow:before,.secondgridrow-padding:after,.secondgridrow-padding:before,
@@ -62,25 +52,14 @@ h1,h2,h3,h4,h5,h6 {
     display:table;
     clear:both
 }
-/* w3-third changed to secondgridthird, firstgridthird */
-/* w3-twothird changed to secondgridtwothird, firstgridtwothird */
-
-.secondgridthird,.firstgridthird,.firstgridtwothird, .secondgridtwothird {
+.secondgridthird,.firstgridtwothird, .secondgridtwothird {
     float:left;
     width:100%;
 }
-@media (min-width:601px)
-{.secondgridthird,.firstgridthird {
-    width:33.33333%
-}
 .firstgridtwothird,.secondgridtwothird {
     width:66.66666%
-}}
-@media (min-width:993px)
-
-/* w3-content changed to secondgridcontent, firstgridcontent */
-
-{.firstgridcontent,.secondgridcontent,.w3-auto {
+}
+.firstgridcontent,.secondgridcontent,.w3-auto {
     margin-left:auto;
     margin-right:auto
 }
@@ -89,15 +68,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 .secondgridcontent 
 {max-width:980px
-}}
-
-/* w3-container to Head-container */
+}
 .Head-container,.secondgridcontainer,.firstgridcontainer {
     padding:0.01em 16px
 }
-
-/* w3-opacity changed to secondgridopacity */
-
 .secondgridopacity {
     opacity:0.60
 }
@@ -107,9 +81,6 @@ h1,h2,h3,h4,h5,h6 {
 .xltemplate {
     font-size:24px!important
 }
-
-/* w3-center changed to secondgridcenter, HeadCenter, w3-center into firstgridcenter */
-
 .headcenter {
     text-align:center!important
 }
@@ -119,9 +90,6 @@ h1,h2,h3,h4,h5,h6 {
 .secondgridcenter {
     text-align:center!important
 }
-
-/* w3-margin changed to secondgridmargin, H1-margin */
-
 .secondgridmargin {
     margin:16px!important
 }
@@ -131,8 +99,6 @@ h1,h2,h3,h4,h5,h6 {
 .secondgridpadding {
     padding:8px 16px!important
 }
-
-/* w3-padding-32 into Padding-32-First-grid, secondgridpadding-32*/
 .Padding-32-First-grid {
     padding-top:32px!important;
     padding-bottom:32px!important
@@ -141,9 +107,6 @@ h1,h2,h3,h4,h5,h6 {
     padding-top:32px!important;
     padding-bottom:32px!important
 }
-
-/* w3-padding-64 into firstgridpadding-64, secondgridpadding-64  */
-
 .firstgridpadding-64 {
     padding-top:64px!important;
     padding-bottom:64px!important
@@ -152,7 +115,6 @@ h1,h2,h3,h4,h5,h6 {
     padding-top:64px!important;
     padding-bottom:64px!important
 }
-
 .headbackground,.w3-hover-headbackground:hover {
     color:#000!important;
     background-color:#f1f1f1!important
@@ -165,8 +127,6 @@ h1,h2,h3,h4,h5,h6 {
     color:#000!important;
     background-color:#f1f1f1!important
 }
-
-/* w3-text-grey into firstgridtext-grey, secondgridtext-grey */
 .firstgridtext-grey, .secondgridtext-grey, .w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover {
     color:#757575!important
 }
@@ -202,7 +162,6 @@ footer {
 p {
     margin-bottom: 10px;    
 }
-
 ul {
     list-style-type: none;
     margin: 0;
@@ -210,11 +169,9 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-  
 li {
     float: right;
-}
-  
+} 
 li a, .dropbtn {
     display: inline-block;
     color: white;
@@ -222,15 +179,12 @@ li a, .dropbtn {
     padding: 14px 16px;
     text-decoration: none;
 }
-  
 li a:hover, .dropdown:hover .dropbtn {
     background-color: dodgerblue;
 }
-  
 li.dropdown {
     display: inline-block;
 }
-  
 .dropdown-content {
     display: none;
     position: absolute;
@@ -239,7 +193,6 @@ li.dropdown {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
-  
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -247,7 +200,6 @@ li.dropdown {
     display: block;
     text-align: left;
 }
-  
 .dropdown-content a:hover {background-color: #f1f1f1;}
   
   .dropdown:hover .dropdown-content {
