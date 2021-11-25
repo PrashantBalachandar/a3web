@@ -266,6 +266,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
     padding-left:inherit;
 }
 .image {
+    flex:40%;
     padding-left:10px;
     padding-right: 10px;
     width:70px;
@@ -275,13 +276,18 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 }
 .Disclaimer {
     color: white;
+    flex:60%;
     font-size: 15px;
     background-color: #333;
     text-align: center;
 }
 footer {
+    display: flex;
+    flex-direction: row;
     background-color: rgb(3, 3, 3);
 }
+@media (max-width: 800px) {footer {flex-direction:column;
+}}
 p {
     margin-bottom: 10px;    
 }
