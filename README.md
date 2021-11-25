@@ -10,28 +10,28 @@ Group members
 
 Workload Distribution Plan (each member have their own html and css based on their tasks described below)
 
-Xin Wen -
+Xin Wen - ( Due by 19th to 22nd November)
 1. Navigation Bar and Menu system/Design
 2. Logo Design 
 3. General Content 
 
-Prashant Balachandar -
+Prashant Balachandar - (Due by 20th November)
 1. Responsive design 
 2. Flex Box Layout  
 3. Proofreading/Validation
 4. General Content 
 
-Jenish ShaleenKumar Shah
+Jenish ShaleenKumar Shah - (Due by 21st November)
 1. Javascript
 2. external links
 3. General Content 
 
-Angel Wandum
+Angel Wandum - (Due by 19th to 22nd November)
 1. embedded map 
 2. footer
-3. General Content 
+3. General Content
 
-Aesha Deveshkumar Dave
+Aesha Deveshkumar Dave - ( Due by 19th to 21st November)
 1. Layout design with Images/GIF
 2. Header
 3. General Content 
@@ -39,3 +39,4 @@ Aesha Deveshkumar Dave
 
 Our Website (WIP): https://prashantbalachandar.github.io/a3web/
 Source: https://www.slrconsulting.com/ (Reference Website)
+Reference Template: https://www.w3schools.com/w3css/tryw3css_templates_start_page.htm
