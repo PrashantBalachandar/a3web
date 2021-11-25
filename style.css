@@ -212,3 +212,7 @@ li.dropdown {
 .top {
     padding-top: 10px;
 }
+.rwd {
+    display: flex;
+    background-color: #333;
+}
