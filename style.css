@@ -266,7 +266,6 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
     padding-left:inherit;
 }
 .image {
-    display:flex;
     padding-left:10px;
     padding-right: 10px;
     width:70px;
@@ -281,7 +280,6 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
     text-align: center;
 }
 footer {
-    display: flex;
     background-color: rgb(3, 3, 3);
 }
 p {
