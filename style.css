@@ -263,10 +263,10 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}*/
 
 .position {
-    padding-left:inherit;
+    flex:40%;
+    padding-left:0px;
 }
 .image {
-    flex:40%;
     padding-left:10px;
     padding-right: 10px;
     width:70px;
