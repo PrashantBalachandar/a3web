@@ -1,10 +1,10 @@
 /***************** 
-* Owner : Prashant Balachandar
+* Owner : Aesha Deveshkumar Dave
 * Date  : Nov 22 (v2)
-* From  : https://www.w3schools.com/css/css_navbar_horizontal.asp
+* From  : https://www.w3schools.com/css/css_selectors.asp
 ******************/
 
-/* genereal content and styling is done by everyone*/
+/* general content and styling is done by everyone*/
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -19,6 +19,13 @@ body {
     font-size:15px;
     line-height:1.5
 }
+/*End Owner: Aesha Deveshkumar Dave*/
+
+/***************** 
+* Owner : Jenish Shaleenkumar Shah
+* Date  : Nov 22 (v2)
+* From  : https://www.w3schools.com/css/css_selectors.asp
+******************/
 h1 {
     font-size:36px
 }
@@ -42,6 +49,13 @@ h1,h2,h3,h4,h5,h6 {
     font-weight:400;
     margin:10px 0
 }
+/* End Owner: Jenish Shaleenkumar shah */
+
+/***************** 
+* Owner : prashant Balachandar (first grid)
+* Date  : Nov 24 (v2)
+* From  : https://www.w3schools.com/w3css/w3css_containers.asp
+******************/
 .headcenter .secondgridcenter {
     display:inline-block;
     width:auto
@@ -71,6 +85,14 @@ h1,h2,h3,h4,h5,h6 {
 .firstgridcontent {
     max-width:980px
 }
+/* End Owner: Prashant Balachandar */
+
+/***************** 
+* Owner : Angel Wandum
+* Date  : Nov 23 (v2)
+* From  : https://www.w3schools.com/w3css/w3css_containers.asp
+******************/
+
 .secondgridcontent 
 {max-width:980px
 }
@@ -135,7 +157,7 @@ h1,h2,h3,h4,h5,h6 {
 .firstgridtext-grey, .secondgridtext-grey, .w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover {
     color:#757575!important
 }
-/* End Owner: Prashant Balachandar */
+/* End Owner: Angel Wandum */
 
 /***************** 
 * Owner : Jenish Shaleenkumar Shah
@@ -149,12 +171,6 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 20px;
     background-color:#333
 }
-.position2{
-    flex:70%;
-    padding-left:10%;
-    line-height: 20px;
-    background-color:#333
-}
 .image {
     margin-top: 5px;
     padding-left:10px;
@@ -164,6 +180,7 @@ h1,h2,h3,h4,h5,h6 {
     float:left;
     background-color:#333;
 }
+/* javascript to be included later on*/
 /* End Owner: Jenish Shaleenkumar Shah */
 
 /***************** 
@@ -239,6 +256,9 @@ li.dropdown {
   .dropdown:hover .dropdown-content {
     display: block;
 }
+@media screen and (max-width: 600px) {
+    li {float: none;}
+}
 /* End Owner: Xin wen */
 
 /***************** 
@@ -253,11 +273,4 @@ li.dropdown {
     padding-top: 5.5px;
     flex: 30%;
 }
-.rwd {
-    display: flex;
-    background-color: #333;
-}
-@media screen and (max-width: 600px) {
-    li.right,
-    li {float: none;}
-}
+/* End Owner: Aesha Deveshkumar Dave */
