@@ -1,18 +1,16 @@
 html {
-    -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:
-    100%
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family:Verdana,sans-serif;
+    font-size:15px;
+    line-height:1.5;
+    overflow-x: hidden;
 }
 body {
-    margin:0
-}
-html,body {
+    margin:0;
     font-family:Verdana,sans-serif;
     font-size:15px;
     line-height:1.5
-}
-html {
-    overflow-x:hidden
 }
 h1 {
     font-size:36px
