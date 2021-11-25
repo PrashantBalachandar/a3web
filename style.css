@@ -205,3 +205,6 @@ li.dropdown {
   .dropdown:hover .dropdown-content {
     display: block;
 }
+.Logo {
+    height:"5px"; width:"auto" !important;
+}
