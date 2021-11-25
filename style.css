@@ -269,18 +269,19 @@ h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin
     padding-left:10px;
     padding-right: 10px;
     width:70px;
-    height:50px;
+    height:70px;
     float:left;
-    background-color: red;
+    background-color:#333;
 }
 .Disclaimer {
     color: white;
     font-size: 15px;
-    background-color:red;
+    background-color: #333;
     text-align: center;
 }
 footer {
-    background-color: red;
+    background-color: #333;
+    max-width: 100%;
 }
 p {
     margin-bottom: 10px;    
@@ -307,7 +308,7 @@ li a, .dropbtn {
 }
   
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: dodgerblue;
 }
   
 li.dropdown {
