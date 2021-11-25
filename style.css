@@ -168,6 +168,7 @@ ul {
     background-color: #333;
 }
 li {
+    display:flex;
     float: right;
 } 
 li a, .dropbtn {
@@ -211,8 +212,4 @@ li.dropdown {
 }
 .top {
     padding-top: 10px;
-}
-.rwd {
-    display: flex;
-    background-color: #333;
 }
