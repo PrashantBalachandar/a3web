@@ -408,3 +408,12 @@ li.dropdown {
     -webkit-filter: blur(6px);
     padding-top: 20px;
 }
+.carrerhead {
+    position: absolute;
+    font-size: 50pt;
+    color: black;
+    text-align: center;
+    padding: 75px;
+    font-weight: 800;
+    z-index: 999;
+}
