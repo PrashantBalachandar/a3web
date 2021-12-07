@@ -350,6 +350,7 @@ li.dropdown {
     border: 1px solid #333;
     border-radius: 5px;
     padding: 5px;
+    background-color: skyblue;
     
 }
 .service_description {
@@ -359,6 +360,7 @@ li.dropdown {
 }
 .srv_header{
     position: relative;
+    
 }
 .service_header{
     position: absolute;
@@ -374,6 +376,7 @@ li.dropdown {
     height: 750px;
     filter: blur(8px);
   -webkit-filter: blur(8px);
+  padding-top: 20px;
 }
 .mapouter{
     position:relative;
@@ -390,6 +393,15 @@ li.dropdown {
 .gmap_canvas > iframe{
     width: 100%;
 }
+<<<<<<< HEAD
+.cartographic_intro {
+    font-weight: bold;
+    font-size: 15px; ;
+}
+.cartographic_body{
+    font-weight: bold;
+    font-size: 30px;
+=======
 /*Xin Wen Dec 7 2021*/
 .remote:after,.remote:before {
     content:"";
@@ -428,4 +440,5 @@ li.dropdown {
 .subcontent {
     max-width:980px;
     text-align: left
+>>>>>>> 04a0f09d362c10ab6afa879d6f946a0144e28289
 }
