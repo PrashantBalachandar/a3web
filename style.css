@@ -401,3 +401,10 @@ li.dropdown {
     font-weight: bold;
     font-size: 30px;
 }
+.careerhead {
+    background-image: url(Images/careers.jpg);
+    width: 100%;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    padding-top: 20px;
+}
