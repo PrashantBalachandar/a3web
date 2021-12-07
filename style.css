@@ -459,13 +459,6 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     font-size: 20px;
     margin: 4px 45%;
     cursor: pointer;
-<<<<<<< HEAD
-}
-
-
-
-
-=======
     flex: 45%;
     transition-duration: 0.5s;
 }
@@ -477,7 +470,6 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     background-color: dodgerblue;
     color: white;
 }
->>>>>>> 6e8b1db187c50c3a839fec81945957bab09d5a01
 
 
 
