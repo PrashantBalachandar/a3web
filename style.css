@@ -426,7 +426,7 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
 
 /* Jenish modifying the CSS for career.html page */   
 .careerimg {
-    max-width: 100%;
+    max-width: 100% !important;
     max-height: 50em;
     filter: blur(6px);
     -webkit-filter: blur(6px);
