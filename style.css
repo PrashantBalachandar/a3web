@@ -82,31 +82,23 @@ h1,h2,h3,h4,h5,h6 {
     margin-left:auto;
     margin-right:auto
 }
-.abtcontent {
-    max-width:900px;
-    text-align: left
+.gridcontent {
+    text-align: left;
+    flex: 100%;
 }
 .firstgridcontent {
     max-width:980px;
     text-align: left
 }
 .propic {
-    position: relative;
-    top: -60px;
-	left: 350px;
-    float: right;
+    left: 150px;
+    flex: 0%;
+    padding-right: 2%;
 }
 .propic1 {
-    position: relative;
-    top: -100px;
-	left: 350px;
-    float: right;
-}
-.propic2 {
-    position: relative;
-    top: -50px;
-	left: 350px;
-    float: right;
+    left: 150px;
+    flex: 0%;
+    padding-right: 1%;
 }
 .bghead {
     text-align: center;
@@ -129,10 +121,6 @@ h1,h2,h3,h4,h5,h6 {
 * From  : https://www.w3schools.com/w3css/w3css_containers.asp
 ******************/
 
-.abtgridcontent {
-    max-width:980px;
-    text-align: right;
-}
 .secondgridcontent {
     max-width:980px;
 }
@@ -177,15 +165,23 @@ h1,h2,h3,h4,h5,h6 {
     padding-top:16px!important;
     padding-bottom:16px!important
 }
-.abtus {
-    padding: 64px 500px 64px 50px ;
+.grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    display: flex;
 }
 .firstgridpadding-64 {
     padding-top:64px!important;
     padding-bottom:64px!important
 }
-.abtgrid64 {
-    padding:64px 50px 64px 500px;
+.grid2 {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    color:#000!important;
+    background-color:#f1f1f1!important;
+    display: flex;
 }
 .secondgridpadding-64 {
     padding-top:64px!important;
@@ -199,24 +195,17 @@ h1,h2,h3,h4,h5,h6 {
     color:#fff!important;
     background-color:#000!important
 }
-.abtgrid, .secondgridlight-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover {
+.secondgridlight-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover {
     color:#000!important;
     background-color:#f1f1f1!important
 }
-.abttext, .firstgridtext-grey, .abtgridtext, .secondgridtext-grey, .w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover {
+.textcolor, .firstgridtext-grey, .abtgridtext, .secondgridtext-grey, .w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover {
     color:#757575!important
 }
 .profilepic {
-    position: relative;
-    top: -90px;
-	right: 350px;
-    float: left;
-}
-.profilepic1 {
-    position: relative;
-    top: -80px;
-	right: 350px;
-    float: left;
+    left: 150px;
+    flex: 0%;
+    padding-right: 1%;
 }
 /* End Owner: Angel Wandum */
 
@@ -287,13 +276,13 @@ ul.topnav {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 16px;
     text-decoration: none;
   }
   
   ul.topnav li a:hover:not(.active) {background-color: #111;}
   
-  ul.topnav li a.active {background-color: #04AA6D;}
+  ul.topnav li a.active {background-color: #111;}
   
   ul.topnav li.right {float: right;}
   
@@ -301,28 +290,23 @@ ul.topnav {
     ul.topnav li.right, 
     ul.topnav li {float: none;}
   }
-ul.topnav li a:hover, .dropdown:hover .dropbtn {
-    background-color: dodgerblue;
-}
+
 .dropdown {
     display: inline-block; 
     display: block;
-    color: white;
     text-align: center;
     text-decoration: none;
 }
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: dodgerblue;
-    padding: 14px 16px;
+    background-color: #333;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -469,6 +453,9 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
 .careerbtn:hover {
     background-color: dodgerblue;
     color: white;
+}
+.careerform {
+    display: block;
 }
 
 input[type=text], input[type=tel], input[type=textarea] select, textarea {
