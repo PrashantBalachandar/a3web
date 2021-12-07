@@ -438,6 +438,7 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     background-color: #000;
     max-width: 100%;
     opacity: 0.60;
+    display: flex;
 }
 .careerbtn {
     background-color: #000;
@@ -451,4 +452,5 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     font-size: 16px;
     margin: 4px 45%;
     cursor: pointer;
+    flex: 50%;
 }
