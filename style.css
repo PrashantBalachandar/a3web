@@ -435,7 +435,7 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     z-index: 999;
 }
 .buttonarea {
-    background-color: #000000;
+    background-color: #000;
     max-width: 100%;
 }
 .careerbtn {
@@ -447,6 +447,6 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 50%;
+    margin: 4px 46%;
     cursor: pointer;
 }
