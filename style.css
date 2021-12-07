@@ -442,7 +442,6 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
 }
 .careerbtn {
     background-color: #000;
-    max-width: 10%;
     border: none;
     color: white;
     padding: 15px 32px;
