@@ -449,7 +449,7 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 45%;
     cursor: pointer;
     flex: 45%;
