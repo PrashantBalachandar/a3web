@@ -82,6 +82,10 @@ h1,h2,h3,h4,h5,h6 {
     margin-left:auto;
     margin-right:auto
 }
+.abtcontent {
+    max-width:900px;
+    text-align: left
+}
 .firstgridcontent {
     max-width:900px;
     text-align: left
@@ -112,9 +116,12 @@ h1,h2,h3,h4,h5,h6 {
 * From  : https://www.w3schools.com/w3css/w3css_containers.asp
 ******************/
 
-.secondgridcontent {
+.abtgridcontent {
     max-width:980px;
     text-align: right;
+}
+.secondgridcontent {
+    max-width:980px;
 }
 .Head-container,.secondgridcontainer,.firstgridcontainer {
     padding:0.01em 16px
@@ -146,12 +153,24 @@ h1,h2,h3,h4,h5,h6 {
 .secondgridpadding {
     padding:8px 16px!important
 }
+.Padding-32-First-grid {
+    padding-top:16px!important;
+    padding-bottom:16px!important
+}
 .secondgridpadding-32 {
     padding-top:16px!important;
     padding-bottom:16px!important
 }
-.firstgridpadding-64 {
+.abtus {
     padding: 64px 500px 64px 50px ;
+}
+.firstgridpadding-64 {
+    padding-top:64px!important;
+    padding-bottom:64px!important
+}
+.abtgrid64 {
+    padding-top:64px!important;
+    padding-bottom:64px!important
 }
 .secondgridpadding-64 {
     padding-top:64px!important;
@@ -165,11 +184,11 @@ h1,h2,h3,h4,h5,h6 {
     color:#fff!important;
     background-color:#000!important
 }
-.secondgridlight-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover {
+.abtgrid, .secondgridlight-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover {
     color:#000!important;
     background-color:#f1f1f1!important
 }
-.firstgridtext-grey, .secondgridtext-grey, .w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover {
+.abttext, .firstgridtext-grey, .abtgridtext, .secondgridtext-grey, .w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover {
     color:#757575!important
 }
 .profilepic {
