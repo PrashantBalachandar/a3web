@@ -455,6 +455,10 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     flex: 45%;
     transition-duration: 0.5s;
 }
+.careerbtn:active {
+    background-color: dodgerblue;
+    transform: translateY(4px);
+}
 .careerbtn:hover {
     background-color: dodgerblue;
     color: white;
