@@ -82,11 +82,11 @@
 </div>
 <!--*** End Owner: Prashant Balachandar *** -->
 <div class="buttonarea">
-  <button type="submit" class="careerbtn" value="Get Started!">Get Started!</button>
+  <button type="submit" class="careerbtn" value="Get Started!" onclick="myfunction()">Get Started!</button>
 </div>
 
 <div class="firstgridpadding-64 firstgridcontainer firsttwothird">
-  <form action="/action_page.php">
+  <form action="/action_page.php" class="careerform">
   <!--form reference: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
     <label for="fname">First Name</label>
     <input type="text" name="firstname" placeholder="Your First Name">
@@ -167,6 +167,17 @@
   </div>
   </footer>
 <!--*** End Owner: Jenish Shaleenkumar Shah *** -->
+
+<script>
+  function myFunction() {
+  var x = document.getElementsByClassName("careerform");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
 </body>
 
 </html>
