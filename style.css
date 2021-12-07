@@ -437,6 +437,7 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
 .buttonarea {
     background-color: #000;
     max-width: 100%;
+    opacity: 0.60;
 }
 .careerbtn {
     background-color: #333;
