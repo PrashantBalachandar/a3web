@@ -436,16 +436,17 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
 }
 .buttonarea {
     background-color: #757575;
+    max-width: 100%;
 }
 .careerbtn {
     background-color: #333;
     border: none;
     color: white;
-    padding: 15px 46%;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 40%;
     cursor: pointer;
 }
