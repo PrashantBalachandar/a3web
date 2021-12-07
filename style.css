@@ -459,13 +459,11 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     font-size: 20px;
     margin: 4px 45%;
     cursor: pointer;
-<<<<<<< HEAD
 }
 
 
 
 
-=======
     flex: 45%;
     transition-duration: 0.5s;
 }
@@ -477,17 +475,14 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     background-color: dodgerblue;
     color: white;
 }
->>>>>>> 6e8b1db187c50c3a839fec81945957bab09d5a01
 
-
-
-input[type=text], input[type=tel], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+input[type=text], input[type=tel], input[type=textarea] select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
