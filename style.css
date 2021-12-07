@@ -452,6 +452,6 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     font-size: 16px;
     margin: 4px 45%;
     cursor: pointer;
-    flex: 50%;
+    flex: 45%;
     opacity: 1.0;
 }
