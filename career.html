@@ -95,10 +95,10 @@
     <input type="text" name="lastname" placeholder="Your Last Name">
 
     <label for="email">Business Email</label>
-    <input type="text" name="email" placeholder="Your Email">
+    <input type="email" name="email" placeholder="Your Email">
 
     <label for="phone">Phone Number</label><br>
-    <input type="tel" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+    <input type="tel" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
 
     <label for="Education">Choose your Education</label>
     <select class="Education" name="Education">
@@ -109,13 +109,17 @@
     </select><br><br>
     
     <label for="Software">Pick the topics that you have worked on</label><br>
-      <input type="checkbox" id="software1" name="software1" value="Imaging">
-      <label for="software1"> Remote Sensing and Imaging</label><br>
-      <input type="checkbox" id="software2" name="software2" value="Database">
-      <label for="software2"> Spatial Analysis and Database Management</label><br>
-      <input type="checkbox" id="software3" name="software3" value="ArcGIS">
-      <label for="software3"> Visualization and Cartography</label><br>
-      <input type="submit" value="Apply Now!">
+    <input type="checkbox" id="software" name="software1" value="Imaging">
+    <label for="software1"> Remote Sensing and Imaging</label><br>
+    <input type="checkbox" id="software" name="software2" value="Database">
+    <label for="software2"> Spatial Analysis and Database Management</label><br>
+    <input type="checkbox" id="software" name="software3" value="ArcGIS">
+    <label for="software3"> Visualization and Cartography</label><br>
+
+    <label for="file">Attach your resume:</label>
+    <input type="file" id="file" name="file"><br><br>
+
+    <input type="submit" id = "apply" value="Apply Now!">
   </form>
 </div>
 
