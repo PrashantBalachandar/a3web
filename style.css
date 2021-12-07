@@ -83,7 +83,26 @@ h1,h2,h3,h4,h5,h6 {
     margin-right:auto
 }
 .firstgridcontent {
-    max-width:980px
+    max-width:900px;
+    text-align: left
+}
+.propic {
+    position: relative;
+    top: -60px;
+	left: 350px;
+    float: right;
+}
+.propic1 {
+    position: relative;
+    top: -100px;
+	left: 350px;
+    float: right;
+}
+.propic2 {
+    position: relative;
+    top: -50px;
+	left: 350px;
+    float: right;
 }
 /* End Owner: Prashant Balachandar */
 
@@ -93,8 +112,9 @@ h1,h2,h3,h4,h5,h6 {
 * From  : https://www.w3schools.com/w3css/w3css_containers.asp
 ******************/
 
-.secondgridcontent 
-{max-width:980px
+.secondgridcontent {
+    max-width:980px;
+    text-align: right;
 }
 .Head-container,.secondgridcontainer,.firstgridcontainer {
     padding:0.01em 16px
@@ -126,17 +146,12 @@ h1,h2,h3,h4,h5,h6 {
 .secondgridpadding {
     padding:8px 16px!important
 }
-.Padding-32-First-grid {
-    padding-top:32px!important;
-    padding-bottom:32px!important
-}
 .secondgridpadding-32 {
-    padding-top:32px!important;
-    padding-bottom:32px!important
+    padding-top:16px!important;
+    padding-bottom:16px!important
 }
 .firstgridpadding-64 {
-    padding-top:64px!important;
-    padding-bottom:64px!important
+    padding: 64px 500px 64px 50px ;
 }
 .secondgridpadding-64 {
     padding-top:64px!important;
@@ -156,6 +171,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 .firstgridtext-grey, .secondgridtext-grey, .w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover {
     color:#757575!important
+}
+.profilepic {
+    position: relative;
+    top: -90px;
+	right: 150px;
+    float: left;
 }
 /* End Owner: Angel Wandum */
 
