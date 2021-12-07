@@ -406,14 +406,14 @@ li.dropdown {
     height: 50em;
     filter: blur(6px);
     -webkit-filter: blur(6px);
-    padding-top: 20px;
+    padding-top: 5px;
 }
 .careerhead {
     position: absolute;
     font-size: 50pt;
     color: black;
     text-align: center;
-    padding: 75px;
+    padding: 279px;
     font-weight: 800;
     z-index: 999;
 }
