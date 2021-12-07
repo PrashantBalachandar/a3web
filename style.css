@@ -434,6 +434,9 @@ ul.topnav li a:hover, .dropdown:hover .dropbtn {
     font-weight: 800;
     z-index: 999;
 }
+.buttonarea {
+    align-content: center;
+}
 .careerbtn {
     background-color: #333;
     border: none;
