@@ -337,18 +337,14 @@ ul.topnav {
 .main_srv {
     text-align: center;
 }
-.service > img{
-    width: 100%;
-    height: 700px;
-    filter: blur(8px);
-  -webkit-filter: blur(8px);
-  padding-top: 20px;
-}
+
 .service {
     width: 80%;
     border: 1px solid black;
     margin: 20px auto;
     padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 
 }
 .service_title {
@@ -361,7 +357,7 @@ ul.topnav {
 .service_more {
     text-decoration: none;
     border: 1px solid #333;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     background-color: skyblue;
     
@@ -370,6 +366,8 @@ ul.topnav {
     width: 65%;
     margin: auto;
     padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .srv_header{
     position: relative;
@@ -414,7 +412,9 @@ ul.topnav {
     font-weight: bold;
     font-size: 30px;
 }
-
+.serv_cart{
+    font-weight: bold;
+}
 
 /* Jenish modifying the CSS for career.html page */   
 .careerimg {
