@@ -6,3 +6,6 @@ function myFunction() {
       x.style.display = "none";
     }
   }
+function alertfunc() {
+    alert("You've applied successfully!");
+    }
