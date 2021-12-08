@@ -439,7 +439,7 @@ ul.topnav {
     opacity: 0.80;
     display: flex;
 }
-.careerbtn1{
+.careerbtn{
     background-color: #000;
     border: none;
     color: white;
@@ -460,14 +460,6 @@ ul.topnav {
 .careerbtn:hover {
     background-color: dodgerblue;
     color: white;
-}
-#form1 {
-    display:none;
-}
-#formButton {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 input[type=text], input[type=tel], input[type=textarea] select, textarea {
