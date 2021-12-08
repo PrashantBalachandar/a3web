@@ -501,6 +501,14 @@ ul.topnav {
     padding-bottom:64px!important;
 }
 
+select {
+    width: inherit;
+    padding: 16px 20px;
+    border: 1px #333;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
 
 /***************** 
 * Owner : Xin Wen
@@ -634,7 +642,7 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     margin-bottom: 16px;
     resize: vertical
 }*/
-textarea {height:200px}
+textarea {height:150px}
 
 #contactform {
     padding-left: 20% !important;
