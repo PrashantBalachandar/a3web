@@ -258,7 +258,7 @@ p {
 
 /***************** 
 * Owner : Xin Wen
-* Date  : Nov 24 (v2)
+* Date  : Dec 06 (v3)
 * From  : https://www.w3schools.com/css/css_navbar_horizontal.asp
 ******************/
 ul.topnav {
@@ -316,7 +316,9 @@ ul.topnav {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.home {
+    position: absolute;
+}
 /* End Owner: Xin wen */
 
 /***************** 
@@ -479,7 +481,4 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-.home {
-    background-image:url("Images/gishome.jpg");
 }
