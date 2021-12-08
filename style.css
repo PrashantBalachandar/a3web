@@ -336,6 +336,16 @@ ul.topnav {
 .home {
     position: absolute;
 }
+
+.sv {
+    display: block;
+    filter: blur(4px);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    width: 100%;
+}
+
 /* End Owner: Xin wen */
 
 /***************** 
