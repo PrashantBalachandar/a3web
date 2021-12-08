@@ -66,7 +66,7 @@ h1,h2,h3,h4,h5,h6 {
 .Head-container:after,.Head-container:before,.secondgridcontainer:after,.secondgridcontainer:before,
 .firstgridcontainer:after,.firstgridcontainer:before,.secondgridrow:after,
 .secondgridrow:before,.secondgridrow-padding:after,.secondgridrow-padding:before,
-.firstgridrow-padding:after,.firstgridrow-padding:before, .remote:after, .remote:before{
+.firstgridrow-padding:after,.firstgridrow-padding:before{
     content:"";
     display:table;
     clear:both
@@ -323,32 +323,6 @@ ul.topnav {
 }
 .home {
     position: absolute;
-}
-.remote-64 {
-    padding-top:64px!important;
-    padding-bottom:64px!important
-}
-.remotecontainer:after, .remotecontainer:before{
-    content:"";
-    display:table;
-    clear:both
-}
-.subcontent {
-    margin-left:auto;
-    margin-right:auto;
-    max-width:980px;
-    text-align: left
-}
-.remotep32 {
-    padding-top:16px!important;
-    padding-bottom:16px!important
-}
-.remotetext{
-    color:#757575!important
-}
-.remote-grey{
-    color:#000!important;
-    background-color:#f1f1f1!important
 }
 /* End Owner: Xin wen */
 
