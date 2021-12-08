@@ -454,9 +454,6 @@ ul.topnav {
     background-color: dodgerblue;
     color: white;
 }
-.careerform {
-    display: block;
-}
 
 input[type=text], input[type=tel], input[type=textarea] select, textarea {
     width: 100%; /* Full width */

@@ -85,7 +85,7 @@
   <button type="submit" class="careerbtn" value="Get Started!" onclick="myfunction()">Get Started!</button>
 </div>
 
-<div class="firstgridpadding-64 firstgridcontainer firsttwothird careerform">
+<div class="firstgridpadding-64 firstgridcontainer firsttwothird"  id="careerform">
   <form action="/action_page.php">
   <!--form reference: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
     <label for="fname">First Name</label>
@@ -169,14 +169,23 @@
 <!--*** End Owner: Jenish Shaleenkumar Shah *** -->
 
 <script>
-  function myFunction() {
-  var x = document.getElementsByClassName("careerform");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+//   function myFunction() {
+//   var x = document.getElementsByClassName("careerform");
+//   if (x.style.display === "none") {
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// }
+const targetDiv = document.getElementById("careerform");
+const btn = document.getElementsByClassName("careerbtn");
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") {
+    targetDiv.style.display = "none";
   } else {
-    x.style.display = "none";
+    targetDiv.style.display = "block";
   }
-}
+};
 </script>
 </body>
 
