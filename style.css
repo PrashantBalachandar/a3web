@@ -462,14 +462,6 @@ ul.topnav {
     background-color: dodgerblue;
     color: white;
 }
-#form1 {
-    display:none;
-}
-#formButton {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
 
 input[type=text], input[type=tel], input[type=textarea] select, textarea {
     width: 100%; /* Full width */
