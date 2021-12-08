@@ -634,3 +634,6 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
 }*/
 textarea {height:200px}
 
+#contactform {
+    padding-left: 20%;
+}
