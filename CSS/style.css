@@ -3,8 +3,6 @@
 * Date  : Nov 22 (v2)
 * From  : https://www.w3schools.com/css/css_selectors.asp
 ******************/
-
-/* general content and styling is done by everyone*/
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -19,13 +17,6 @@ body {
     font-size:15px;
     line-height:1.5
 }
-/*End Owner: Aesha Deveshkumar Dave*/
-
-/***************** 
-* Owner : Jenish Shaleenkumar Shah
-* Date  : Nov 22 (v2)
-* From  : https://www.w3schools.com/css/css_selectors.asp
-******************/
 h1 {
     font-size:36px
 }
@@ -49,7 +40,7 @@ h1,h2,h3,h4,h5,h6 {
     font-weight:400;
     margin:10px 0
 }
-/* End Owner: Jenish Shaleenkumar shah */
+/*End Owner: Aesha Deveshkumar Dave*/
 
 /***************** 
 * Owner : prashant Balachandar (first grid)
@@ -140,7 +131,6 @@ h1,h2,h3,h4,h5,h6 {
     float:left;
     background-color:#333;
 }
-/* javascript to be included later on*/
 /* End Owner: Jenish Shaleenkumar Shah */
 
 /***************** 
@@ -256,7 +246,6 @@ ul.topnav {
     padding-top: 20px;
     width: 100%;
 }
-
 /* End Owner: Xin wen */
 
 /***************** 
@@ -278,11 +267,9 @@ ul.topnav {
 * Date  : Dec 7 (v3)
 * From  : https://www.w3schools.com/css/default.asp
 ******************/
-
 .main_srv {
     text-align: center;
 }
-
 .service {
     width: 80%;
     border: 1px solid black;
@@ -360,6 +347,10 @@ ul.topnav {
 .serv_cart{
     font-weight: bold;
 }
+.frame {
+    border: 0px;
+}
+/*End Owner: Angel Wandum*/
 /***************** 
 * Owner : Jenish
 * Date  : Dec 7 (v3)
@@ -432,15 +423,13 @@ select {
     border-radius: 4px;
     background-color: #f1f1f1;
 }
-
+/*End Owner: Jenish Shaleenkumar Shah*/
 
 /***************** 
 * Owner : Xin Wen
 * Date  : Dec 7 (v3)
 * From  : https://www.w3schools.com/html/html5_semantic_elements.asp
 ******************/
-
-/* Xin Wen dec 7*/
 .remote-64 {
     padding-top:64px!important;
     padding-bottom:64px!important
@@ -467,7 +456,13 @@ select {
     color:#000!important;
     background-color:#f1f1f1!important
 }
+/*End Owner: Xin Wen*/
 
+/***************** 
+* Owner : Prashant Balachandar
+* Date  : Dec 7 
+* From  : https://www.w3schools.com/html/html_classes.asp
+******************/
 .mainhead{
     padding:0.01em 16px;
     color:#000!important;
@@ -492,6 +487,12 @@ select {
 .gridtextgrey {
     color:#757575!important
 }
+/*End Owner: Prashant Balachandar*/
+/***************** 
+* Owner : Jenish Shaleenkumar Shah
+* Date  : Dec 7 
+* From  : https://www.w3schools.com/html/html_classes.asp
+******************/
 .maingrid2 {
     padding-top:64px!important;
     padding-bottom:64px!important;
@@ -512,6 +513,12 @@ select {
     padding-top:16px!important;
     padding-bottom:16px!important;
 }
+/*End Owner: Jenish Shaleenkumar Shah*/
+/***************** 
+* Owner : Prashant Balachandar
+* Date  : Dec 7 
+* From  : https://www.w3schools.com/html/html_classes.asp
+******************/
 .facts {
     color:#fff!important;
     background-color:#000!important;
@@ -526,10 +533,12 @@ select {
     margin:16px!important;
     font-size:24px !important ;
 }
-.frame {
-    border: 0px;
-}
-/* Aesha Dave dec 7*/
+/*End Owner: Prashant Balachandar*/
+/***************** 
+* Owner : Aesha Deveshkumar Dave
+* Date  : Dec 7 (v3)
+* From  : https://www.w3schools.com/css/css3_buttons.asp
+******************/
 .SubmitButton{
     background-color: #333;
     border: none;
@@ -559,3 +568,4 @@ input[type=text], input[type=tel], input[type=textarea] select, input[type=email
 #contactform {
     padding-left: 20% !important;
 }
+/*End Owner: Aesha Deveshkumar Dave*/
