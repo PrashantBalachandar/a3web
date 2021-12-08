@@ -278,6 +278,18 @@ ul.topnav {
     padding: 18px 16px;
     text-decoration: none;
   }
+  
+.padd {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px !important;
+    text-decoration: none;
+  } 
+  .paddd{
+      padding:0 !important; 
+      text-align: center !important;
+  }
   ul.topnav li b {
     display: block;
     color: white;
@@ -291,7 +303,7 @@ ul.topnav {
   ul.topnav li.right {float: right;}
   
   @media screen and (max-width: 600px) {
-    ul.topnav li.right, ul.topnav b,
+    ul.topnav li.right, ul.topnav, .pad,
     ul.topnav li {float: none;}
   }
 
