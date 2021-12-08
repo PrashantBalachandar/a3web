@@ -440,7 +440,7 @@ ul.topnav {
     opacity: 0.80;
     display: flex;
 }
-.careerbtn {
+.careerbtn1{
     background-color: #000;
     border: none;
     color: white;
@@ -452,7 +452,7 @@ ul.topnav {
     margin: 4px 45%;
     cursor: pointer;
     flex: 45%;
-    transition-duration: 0.5s;
+    transition-duration: 0.35s;
 }
 .careerbtn:active {
     background-color: dodgerblue;
