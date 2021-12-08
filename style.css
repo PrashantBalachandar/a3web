@@ -510,3 +510,65 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     color:#000!important;
     background-color:#f1f1f1!important
 }
+
+.mainhead{
+    padding:0.01em 16px;
+    color:#000!important;
+    background-color:#f1f1f1!important;
+    text-align:center!important;
+}
+
+.maingrid1 {
+    padding-top:64px!important;
+    padding-bottom:64px!important;
+}
+.maincontent1 {
+    max-width:980px;
+    text-align: left;
+    margin-left:auto;
+    margin-right:auto
+}
+.mainpadding1 {
+    padding-top:16px!important;
+    padding-bottom:16px!important
+}
+.gridtextgrey {
+    color:#757575!important
+}
+.maingrid2 {
+    padding-top:64px!important;
+    padding-bottom:64px!important;
+    background-color:#f1f1f1!important
+}
+.maingrid2:after, .maingrid2:before {
+    content:"";
+    display:table;
+    clear:both
+}
+.maincontent2 {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px;
+    text-align: left;
+}
+.mainpadding2 {
+    padding-top:16px!important;
+    padding-bottom:16px!important;
+}
+.facts {
+    color:#fff!important;
+    background-color:#000!important;
+    text-align:center!important;
+    display:block!important;
+    width:auto!important;
+    opacity:0.60;
+    padding-top:64px!important;
+    padding-bottom:64px!important;
+}
+.factext {
+    margin:16px!important;
+    font-size:24px !important ;
+}
+.frame {
+    border: 0px;
+}
