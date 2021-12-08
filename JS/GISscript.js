@@ -7,5 +7,11 @@ function myFunction() {
     }
   }
 function alertfunc() {
-    alert("You've applied successfully!");
+    var txt;
+    if (confirm("Please Confirm!")) {
+      txt = "You pressed OK!";
+    } else {
+      txt = "You pressed Cancel!";
     }
+    document.getElementById("apply").innerHTML = txt;
+  }
