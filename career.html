@@ -99,40 +99,40 @@
 <div class="formpad" id="crrform">
   <form action="/action_page.php">
   <!--form reference: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
-    <label for="fname">First Name</label><br>
+    <label for="fname">First Name</label><div></div>
     <input id="fname" type="text" name="firstname" placeholder="Your First Name">
 
-    <br><label for="lname">Last Name</label><br>
+    <div><label for="lname">Last Name</label></div>
     <input id="lname" type="text" name="lastname" placeholder="Your Last Name">
 
-    <br><label for="phone">Phone Number</label><br>
+    <div><label for="phone">Phone Number</label></div>
     <input id="phone" type="tel" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
 
-    <br><label for="email">Business Email</label><br>
+    <div><label for="email">Business Email</label></div>
     <input id="email" type="email" name="email" placeholder="Your Email">
 
-    <br><br><label for="Education">Choose your Education</label>
+    <div></div><label for="Education">Choose your Education</label>
     <select id="Education" class="Education" name="Education">
       <option value="Undergraduate">Undergraduate Degree</option>
       <option value="Postgraduate">Postgraduate Degree</option>
       <option value="Certificate">Certificate Course</option>
       <option value="Master+">Master's Degree or Higher</option>
-    </select><br><br>
+    </select><div></div>
     
-    <label for="software1">Pick the topics that you have worked on</label><br>
+    <label for="software1">Pick the topics that you have worked on</label><div></div>
     <input id="software1" type="checkbox" class="software" name="software1" value="Imaging">
-    <label for="software1"> Remote Sensing and Imaging</label><br>
+    <label for="software1"> Remote Sensing and Imaging</label><div></div>
     <input id="software2" type="checkbox" class="software" name="software2" value="Database">
-    <label for="software2"> Spatial Analysis and Database Management</label><br>
+    <label for="software2"> Spatial Analysis and Database Management</label><div></div>
     <input id="software3" type="checkbox" class="software" name="software3" value="Survey">
-    <label for="software3">Surveying and CAD</label><br>
+    <label for="software3">Surveying and CAD</label><div></div>
     <input id="software4" type="checkbox" class="software" name="software4" value="ArcGIS">
-    <label for="software4" > Visualization and Cartography</label><br><br>
+    <label for="software4" > Visualization and Cartography</label><div></div>
 
-    <label for="file">Attach your resume:</label><br>
+    <label for="file">Attach your resume:</label><div></div>
     <input type="file" id="file" name="file">
 
-    <br><br><input type="submit" id = "apply" value="Apply Now!" onclick="alertfunc()">
+    <div></div><input type="submit" id = "apply" value="Apply Now!" onclick="alertfunc()">
   </form>
 </div>
 
