@@ -465,3 +465,6 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+.home {
+    background-image:url("Images/gishome.jpg");
+}
