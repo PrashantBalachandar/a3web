@@ -506,14 +506,17 @@ ul.topnav {
 #crrform{
     display:none;
     width: 100%;
-    padding: 50px 0;
-    text-align:center;
-    margin-top: 20px;
-   
+    text-align:left;
+    margin-top: 20px; 
+    padding-left: 10%;
+}
+.formpad {
+    padding-top:64px!important;
+    padding-bottom:64px!important;
 }
 
 input[type=text], input[type=tel], input[type=textarea] select, textarea {
-    width: 100%; /* Full width */
+    width: 80%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
@@ -633,7 +636,7 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     flex: 45%;
     transition-duration: 0.35s;
 }
-input[type=text], input[type=tel], input[type=textarea] select, textarea {
+/*input[type=text], input[type=tel], input[type=textarea] select, textarea {
     width: 100%;
     padding: 12px; 
     border: 1px solid #ccc;
@@ -642,6 +645,6 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical
-}
+}*/
 textarea {height:200px}
 

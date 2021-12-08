@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>GIS Consultancy
-  </title>
-  </head>
 <link rel="icon" type="Image/jpg" href="Images/GlobeWhite.jpg"/>
 <meta charset="UTF-8">
-<!-- -----------------
+<!--
 - Owner : Prashant Balachandar
 - Date  : Nov 24 (v1)
 - From  : https://www.w3schools.com/css/css_navbar_horizontal.asp
----------------------->
+-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--*** End Owner: Prashant Balachandar *** -->
 <link rel="stylesheet" href="style.css">
 
+<title>GIS Consultancy
+</title>
+
 <body>
 
-<!-- -----------------
+<!--
 - Owner : Xin Wen
 - Date  : Nov 24 (v3)
 - From  : https://www.w3schools.com/css/css_navbar_horizontal.asp
----------------------->
+-->
 <div>
   <ul class = "topnav">
     <li class = "logo"><img src="Images/logocrop.png" height = 50 alt="Logo"></li>
@@ -41,86 +40,78 @@
 
 <!-- Logo was created by both Xin wen and Aesha Deveshkumar Dave-->
 
-<!-- -----------------
+<!--
 - Owner : Aesha Deveshkumar Dave
 - Date  : Nov 23 (v2)
 - From  : https://www.w3schools.com/html/html5_semantic_elements.asp
----------------------->
+-->
 <header class="mainhead"> 
   <h1 class="careerhead">Build your GIS Career with us!</h1>
   <img class="careerimg" src="Images/careers.jpg" alt="Careers">
 </header>
 <!--*** End Owner: Aesha Deveshkumar Dave *** -->
 
-<!-- -----------------
+<!--
 - Owner : Prashant Balachandar
 - Date  : Nov 22 (v3)
 - From  : https://www.w3schools.com/html/html_classes.asp
----------------------->
-<div class="firstgridrow-padding firstgridpadding-64 firstgridcontainer"> 
-  <div class="firstgridcontent"> 
-    <div class="firsttwothird">
+-->
+<div class="maingrid1"> 
+  <div class="maincontent1"> 
       <h1>Looking for work? We've got opportunities!</h1>
-      <h5 class="Padding-32-First-grid"> Whether you're a cartographer or a GIS analyst, we can provide an excellent platform for you to enter the field.</h5>
-
-      <p class="firstgridtext-grey">Our company prides itself on being one of the frontrunners when it comes to all things GIS. Over the last five years, this company has grown from having just four people to now providing services through a workforce of more than fifty talented people. </p>
-      <p class="firstgridtext-grey">While other companies might be hesitant in hiring fresh faces in the industry, we gladly take our chances and even offer internship programs for such emerging people. </p> <!-- w3-text-grey into text-grey -->
+      <h5 class="mainpadding1"> Whether you're a cartographer or a GIS analyst, we can provide an excellent platform for you to enter the field.</h5>
+      <p class="gridtextgrey">Our company prides itself on being one of the frontrunners when it comes to all things GIS. Over the last five years, this company has grown from having just four people to now providing services through a workforce of more than fifty talented people. </p>
+      <p class="gridtextgrey">While other companies might be hesitant in hiring fresh faces in the industry, we gladly take our chances and even offer internship programs for such emerging people. </p> <!-- w3-text-grey into text-grey -->
     </div>
   </div>
-</div>
 
-<div class="secondgridrow-padding secondgridlight-grey secondgridpadding-64 secondGridcontainer">
-  <div class="secondgridcontent">
-    <div class="secondgridtwothird">
+<div class="maingrid2">
+  <div class="maincontent2">
       <h1>Start your journey right now!</h1>
-      <h5 class="secondgridpadding-32">Feel like you have the right skills to be a helpful asset to our company?</h5>
-
-      <p class="secondgridtext-grey"> Then don't waste a single second and scroll down to fill out our form! You can apply for an internship or even full-time work.</p>
-      <p class="secondgridtext-grey"> Also subscribe to our newsletter and never miss out on any of our announcements!</p>
-    
+      <h5 class="mainpadding2">Feel like you have the right skills to be a helpful asset to our company?</h5>
+      <p class="gridtextgrey"> Then don't waste a single second and scroll down to fill out our form! You can apply for an internship or even full-time work.</p>
+      <p class="gridtextgrey"> Also subscribe to our newsletter and never miss out on any of our announcements!</p>
     </div>
-    
   </div>
-  
-</div>
+
 <!--*** End Owner: Prashant Balachandar *** -->
 <div class="buttonarea">
   <button type="submit" class="careerbtn" value="Get Started!" onclick="myFunction()">Get Started!</button>
 </div>
 
 
-<div class="firstgridpadding-64 firstgridcontainer firsttwothird" id="crrform">
+<div class="formpad" id="crrform">
   <form action="/action_page.php">
   <!--form reference: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
-    <label for="fname">First Name</label>
-    <input type="text" name="firstname" placeholder="Your First Name">
+    <label for="fname">First Name</label><br>
+    <input id="fname" type="text" name="firstname" placeholder="Your First Name">
 
-    <label for="lname">Last Name</label>
-    <input type="text" name="lastname" placeholder="Your Last Name">
+    <br><label for="lname">Last Name</label><br>
+    <input id="lname" type="text" name="lastname" placeholder="Your Last Name">
 
-    <label for="email">Business Email</label><br>
-    <input type="email" name="email" placeholder="Your Email">
+    <br><label for="phone">Phone Number</label><br>
+    <input id="phone" type="tel" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
 
-    <br><br><label for="phone">Phone Number</label>
-    <input type="tel" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+    <br><label for="email">Business Email</label><br>
+    <input id="email" type="email" name="email" placeholder="Your Email">
 
-    <label for="Education">Choose your Education</label>
-    <select class="Education" name="Education">
+    <br><br><label for="Education">Choose your Education</label>
+    <select id="Education" class="Education" name="Education">
       <option value="Undergraduate">Undergraduate Degree</option>
       <option value="Postgraduate">Postgraduate Degree</option>
       <option value="Certificate">Certificate Course</option>
       <option value="Master+">Master's Degree or Higher</option>
     </select><br><br>
     
-    <label for="Software">Pick the topics that you have worked on</label><br>
-    <input type="checkbox" id="software" name="software1" value="Imaging">
+    <label for="software1">Pick the topics that you have worked on</label><br>
+    <input id="software1" type="checkbox" class="software" name="software1" value="Imaging">
     <label for="software1"> Remote Sensing and Imaging</label><br>
-    <input type="checkbox" id="software" name="software2" value="Database">
+    <input id="software2" type="checkbox" class="software" name="software2" value="Database">
     <label for="software2"> Spatial Analysis and Database Management</label><br>
-    <input type="checkbox" id="software" name="software3" value="Survey">
+    <input id="software3" type="checkbox" class="software" name="software3" value="Survey">
     <label for="software3">Surveying and CAD</label><br>
-    <input type="checkbox" id="software" name="software4" value="ArcGIS">
-    <label for="software4"> Visualization and Cartography</label><br><br>
+    <input id="software4" type="checkbox" class="software" name="software4" value="ArcGIS">
+    <label for="software4" > Visualization and Cartography</label><br><br>
 
     <label for="file">Attach your resume:</label><br>
     <input type="file" id="file" name="file">
@@ -129,16 +120,15 @@
   </form>
 </div>
 
-
-<div class="secondGridcontainer secondgridblack secondgridcenter secondgridopacity secondgridpadding-64">
-    <h1 class="secondgridmargin secondgridxlarge">Geographical Fact of the day: Continents shift at about the same rate as your fingernails grow!</h1>
+<div class="facts">
+    <h1 class="factext">Geographical Fact of the day: Ninety percent of Earth's population lives in the Northern Hemisphere!</h1>
 </div>
 
-<!-- -----------------
+<!--
 - Owner : Angel Wandum
 - Date  : Nov 22 (v3)
 - From  : https://www.w3schools.com/html/html5_semantic_elements.asp
----------------------->
+-->
 <footer>
   <div class="Disclaimer">
   <p>This is a fake website.</p>
@@ -146,11 +136,11 @@
   and for educational purposes only.</p>
 <!--*** End Owner: Angel Wandum *** -->
 
-<!-- -----------------
+<!--
 - Owner : Jenish Shaleenkumar Shah
 - Date  : Nov 22 (v3)
 - From  : https://www.w3schools.com/html/html_links.asp
----------------------->
+-->
   </div>
   <div class="position">
   <div><a href="https://www.facebook.com" target="_blank">
