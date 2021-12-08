@@ -111,6 +111,13 @@ h1,h2,h3,h4,h5,h6 {
 * From  : https://www.w3schools.com/html/html_images.asp
 ******************/
 
+@media screen and (max-width:600px) {
+    .maingrid1, .maingrid2, .maincontent1, .maincontent2, .gridcontent {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    } 
+        
+}
 .position {
     flex:40%;
     padding-left:10%;
