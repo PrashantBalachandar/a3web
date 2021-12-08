@@ -502,6 +502,15 @@ ul.topnav {
 }
 
 
+select {
+    width: inherit;
+    padding: 16px 20px;
+    border: 1px #333;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+
 /***************** 
 * Owner : Xin Wen
 * Date  : Dec 7 (v3)
