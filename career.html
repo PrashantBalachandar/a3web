@@ -85,7 +85,8 @@
   <button type="submit" class="careerbtn" value="Get Started!" onclick="myfunction()">Get Started!</button>
 </div>
 
-<div class="firstgridpadding-64 firstgridcontainer firsttwothird"  id="careerform">
+<div id="crrform">
+<div class="firstgridpadding-64 firstgridcontainer firsttwothird">
   <form action="/action_page.php">
   <!--form reference: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
     <label for="fname">First Name</label>
@@ -123,6 +124,7 @@
 
     <br><br><input type="submit" id = "apply" value="Apply Now!">
   </form>
+</div>
 </div>
 
 <div class="secondGridcontainer secondgridblack secondgridcenter secondgridopacity secondgridpadding-64">
@@ -167,25 +169,15 @@
   </div>
   </footer>
 <!--*** End Owner: Jenish Shaleenkumar Shah *** -->
-
 <script>
-//   function myFunction() {
-//   var x = document.getElementsByClassName("careerform");
-//   if (x.style.display === "none") {
-//     x.style.display = "block";
-//   } else {
-//     x.style.display = "none";
-//   }
-// }
-const targetDiv = document.getElementById("careerform");
-const btn = document.getElementsByClassName("careerbtn");
-btn.onclick = function () {
-  if (targetDiv.style.display !== "none") {
-    targetDiv.style.display = "none";
+  function myFunction() {
+  var x = document.getElementById("crrform");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } else {
-    targetDiv.style.display = "block";
+    x.style.display = "none";
   }
-};
+}
 </script>
 </body>
 
