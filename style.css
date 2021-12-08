@@ -319,6 +319,32 @@ ul.topnav {
 .home {
     position: absolute;
 }
+.remote-64 {
+    padding-top:64px!important;
+    padding-bottom:64px!important
+}
+.remotecontainer:after, .remotecontainer:before{
+    content:"";
+    display:table;
+    clear:both
+}
+.subcontent {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px;
+    text-align: left
+}
+.remotep32 {
+    padding-top:16px!important;
+    padding-bottom:16px!important
+}
+.remotetext{
+    color:#757575!important
+}
+.remote-grey{
+    color:#000!important;
+    background-color:#f1f1f1!important
+}
 /* End Owner: Xin wen */
 
 /***************** 
@@ -480,6 +506,7 @@ ul.topnav {
     margin-top: 20px;
    
 }
+<<<<<<< HEAD
 
 input[type=text], input[type=tel], input[type=textarea] select, textarea {
     width: 100%; /* Full width */
@@ -491,11 +518,17 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+<<<<<<< HEAD
 /***************** 
 * Owner : Xin Wen
 * Date  : Dec 7 (v3)
 * From  : https://www.w3schools.com/html/html5_semantic_elements.asp
 ******************/
+=======
+
+=======
+/* Xin Wen dec 7*/
+>>>>>>> 3b42323c923b0382bf185ccad1556ecbacf89c7e
 .remote-64 {
     padding-top:64px!important;
     padding-bottom:64px!important
@@ -522,3 +555,30 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     color:#000!important;
     background-color:#f1f1f1!important
 }
+/* Aesha Dave dec 7*/
+.SubmitButton{
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 45%;
+    cursor: pointer;
+    flex: 45%;
+    transition-duration: 0.35s;
+}
+input[type=text], input[type=tel], input[type=textarea] select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+textarea {height:200px}
+>>>>>>> e06ba2502ee4f77be9e1d79a004e1234e4492756
