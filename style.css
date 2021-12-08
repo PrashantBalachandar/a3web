@@ -56,44 +56,12 @@ h1,h2,h3,h4,h5,h6 {
 * Date  : Nov 24 (v2)
 * From  : https://www.w3schools.com/w3css/w3css_containers.asp
 ******************/
-.headcenter .secondgridcenter {
-    display:inline-block;
-    width:auto
-}
-.headcenter.secondgridcenter {
-    text-align:center
-}
-.Head-container:after,.Head-container:before,.secondgridcontainer:after,.secondgridcontainer:before,
-.firstgridcontainer:after,.firstgridcontainer:before,.secondgridrow:after,
-.secondgridrow:before,.secondgridrow-padding:after,.secondgridrow-padding:before,
-.firstgridrow-padding:after,.firstgridrow-padding:before{
-    content:"";
-    display:table;
-    clear:both
-}
-.secondgridthird,.firstgridtwothird, .secondgridtwothird {
-    float:left;
-    width:100%;
-}
-.firstgridtwothird,.secondgridtwothird {
-    width:66.66666%
-}
-.firstgridcontent,.secondgridcontent,.w3-auto {
-    margin-left:auto;
-    margin-right:auto
-}
 .gridcontent {
     text-align: left;
     flex: 100%;
 }
-.firstgridcontent {
-    max-width:980px;
-    text-align: left
-}
 .propic {
-    left: 150px;
-    flex: 0%;
-    padding-right: 2%;
+    right: 600px;
 }
 .propic1 {
     left: 150px;
@@ -119,60 +87,14 @@ h1,h2,h3,h4,h5,h6 {
 * Date  : Nov 23 (v2)
 * From  : https://www.w3schools.com/w3css/w3css_containers.asp
 ******************/
-
-.secondgridcontent {
-    max-width:980px;
-}
-.Head-container,.secondgridcontainer,.firstgridcontainer {
-    padding:0.01em 16px
-}
 .imghead {
     padding:0.01em 16px
-}
-.secondgridopacity {
-    opacity:0.60
-}
-.secondgridxlarge {
-    font-size:24px!important
-}
-.xltemplate {
-    font-size:24px!important
-}
-.headcenter {
-    text-align:center!important
-}
-.firstgridcenter {
-    text-align:center!important
-}
-.secondgridcenter {
-    text-align:center!important
-}
-.secondgridmargin {
-    margin:16px!important
-}
-.H1-margin {
-    margin:16px!important
-}
-.secondgridpadding {
-    padding:8px 16px!important
-}
-.Padding-32-First-grid {
-    padding-top:16px!important;
-    padding-bottom:16px!important
-}
-.secondgridpadding-32 {
-    padding-top:16px!important;
-    padding-bottom:16px!important
 }
 .grid {
     padding-top: 64px;
     padding-bottom: 64px;
     padding-left: 16px;
     display: flex;
-}
-.firstgridpadding-64 {
-    padding-top:64px!important;
-    padding-bottom:64px!important
 }
 .grid2 {
     padding-top: 64px;
@@ -182,23 +104,7 @@ h1,h2,h3,h4,h5,h6 {
     background-color:#f1f1f1!important;
     display: flex;
 }
-.secondgridpadding-64 {
-    padding-top:64px!important;
-    padding-bottom:64px!important
-}
-.headbackground,.w3-hover-headbackground:hover {
-    color:#000!important;
-    background-color:#f1f1f1!important
-}
-.secondgridblack,.w3-hover-black:hover {
-    color:#fff!important;
-    background-color:#000!important
-}
-.secondgridlight-grey,.w3-hover-light-grey:hover,.w3-light-gray,.w3-hover-light-gray:hover {
-    color:#000!important;
-    background-color:#f1f1f1!important
-}
-.textcolor, .firstgridtext-grey, .abtgridtext, .secondgridtext-grey, .w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover {
+.textcolor{
     color:#757575!important
 }
 .profilepic {
