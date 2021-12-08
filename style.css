@@ -510,15 +510,13 @@ ul.topnav {
     padding-top:64px!important;
     padding-bottom:64px!important;
 }
-
-
 select {
     width: inherit;
     padding: 16px 20px;
     border: 1px #333;
     border-radius: 4px;
     background-color: #f1f1f1;
-  }
+}
 
 
 /***************** 
