@@ -220,6 +220,11 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 20px;
     background-color:#333
 }
+@media screen and (max-width: 600px) {
+    .position {
+        padding-left:28%;
+    }
+}
 .image {
     margin-top: 35px;
     padding-left:10px;
@@ -249,7 +254,7 @@ footer {
     flex-direction: row;
     background-color: rgb(3, 3, 3);
 }
-@media (max-width: 800px) {footer {flex-direction:column;
+@media (max-width: 600px) {footer {flex-direction:column;
 }}
 p {
     margin-bottom: 10px;    
@@ -466,8 +471,7 @@ ul.topnav {
     font-size: 50pt;
     color: black;
     text-align: center;
-    padding: 17%;
-    padding-left: 20%;
+    padding:5%;
     font-weight: 800;
     z-index: 999;
 }
@@ -498,6 +502,11 @@ ul.topnav {
 .careerbtn:hover {
     background-color: dodgerblue;
     color: white;
+}
+@media screen and (max-width:600px) {
+    .careerbtn {
+        margin-left: 38%;
+    }
 }
 #crrform{
     display:none;
