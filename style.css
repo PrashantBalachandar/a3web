@@ -613,7 +613,7 @@ ul.topnav {
     transition-duration: 0.35s;
 }
 
-input[type=text], input[type=tel], input[type=textarea] select, textarea {
+input[type=text], input[type=tel], input[type=textarea] select, input[type=email] {
     width: 80%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #ccc; /* Gray border */
@@ -634,7 +634,6 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     margin-bottom: 16px;
     resize: vertical
 }*/
-textarea {height:200px}
 
 #contactform {
     padding-left: 20% !important;
