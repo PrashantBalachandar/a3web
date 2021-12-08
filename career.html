@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>GIS Consultancy</title>
+  <head>
+    <title>GIS Consultancy
+  </title>
+  </head>
 <link rel="icon" type="Image/jpg" href="Images/GlobeWhite.jpg"/>
 <meta charset="UTF-8">
 <!-- -----------------
@@ -21,16 +24,16 @@
 ---------------------->
 <div>
   <ul class = "topnav">
-    <li class = "logo"><img src="Images/WebsiteLogo3.jpg" height = 50 alt="Logo"></li>
-    <li class = "right"><a href="Contact us.html">Contact Us</a></li>
+    <li class = "logo"><img src="Images/logocrop.png" height = 50 alt="Logo"></li>
+    <li class = "right"><a href="Contactus.html">Contact Us</a></li>
     <li class = "right dropdown"><a href="service_overview.html" >Services</a>
       <div class="dropdown-content">
-        <a href="#">Introduction to GIS</a>
-        <a href="#">About Remote Sensing </a>
+        <a href="Blog2.html">Introduction to GIS</a>
+        <a href="Blog1.html">About Remote Sensing </a>
       </div>
     </li>
     <li class = "right"><a href="career.html">Career</a></li>
-    <li class = "right"><a href="about us.html">About Us</a></li>
+    <li class = "right"><a href="aboutus.html">About Us</a></li>
     <li class = "right"><a href="index.html">Home</a></li>
   </ul>
 </div>
@@ -82,12 +85,12 @@
 </div>
 <!--*** End Owner: Prashant Balachandar *** -->
 <div class="buttonarea">
-  <button type="submit" class="careerbtn" value="Get Started!" id="formButton">Get Started!</button>
+  <button type="submit" class="careerbtn" value="Get Started!" onclick="myFunction()">Get Started!</button>
 </div>
 
-<div id="crrform">
-<div class="firstgridpadding-64 firstgridcontainer firsttwothird">
-  <form action="/action_page.php" id="form1">
+
+<div class="firstgridpadding-64 firstgridcontainer firsttwothird" id="crrform">
+  <form action="/action_page.php">
   <!--form reference: https://www.w3schools.com/howto/howto_css_contact_form.asp -->
     <label for="fname">First Name</label>
     <input type="text" name="firstname" placeholder="Your First Name">
@@ -122,10 +125,10 @@
     <label for="file">Attach your resume:</label><br>
     <input type="file" id="file" name="file">
 
-    <br><br><input type="submit" id = "apply" value="Apply Now!">
+    <br><br><input type="submit" id = "apply" value="Apply Now!" onclick="alertfunc()">
   </form>
 </div>
-</div>
+
 
 <div class="secondGridcontainer secondgridblack secondgridcenter secondgridopacity secondgridpadding-64">
     <h1 class="secondgridmargin secondgridxlarge">Geographical Fact of the day: Continents shift at about the same rate as your fingernails grow!</h1>
@@ -169,21 +172,7 @@
   </div>
   </footer>
 <!--*** End Owner: Jenish Shaleenkumar Shah *** -->
-<script>
-
-$(document).ready(function() {
-  $("#formButton").click(function() {
-    $("#form1").toggle();
-  });
-});
-//   function myFunction() {
-//   var x = document.getElementById("crrform");
-//   if (x.style.display === "none") {
-//     x.style.display = "block";
-//   } else {
-//     x.style.display = "none";
-//   }
-// }
+<script src="JS/GISscript.js">
 </script>
 </body>
 

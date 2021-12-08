@@ -66,7 +66,7 @@ h1,h2,h3,h4,h5,h6 {
 .Head-container:after,.Head-container:before,.secondgridcontainer:after,.secondgridcontainer:before,
 .firstgridcontainer:after,.firstgridcontainer:before,.secondgridrow:after,
 .secondgridrow:before,.secondgridrow-padding:after,.secondgridrow-padding:before,
-.firstgridrow-padding:after,.firstgridrow-padding:before {
+.firstgridrow-padding:after,.firstgridrow-padding:before, .remote:after, .remote:before{
     content:"";
     display:table;
     clear:both
@@ -110,8 +110,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
-    width: 70%;
-    filter: blur(5px);
+    width: 40%;
 }
 /* End Owner: Prashant Balachandar */
 
@@ -259,7 +258,7 @@ p {
 
 /***************** 
 * Owner : Xin Wen
-* Date  : Nov 24 (v2)
+* Date  : Dec 06 (v3)
 * From  : https://www.w3schools.com/css/css_navbar_horizontal.asp
 ******************/
 ul.topnav {
@@ -317,7 +316,9 @@ ul.topnav {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
+.home {
+    position: absolute;
+}
 /* End Owner: Xin wen */
 
 /***************** 
@@ -440,7 +441,7 @@ ul.topnav {
     opacity: 0.80;
     display: flex;
 }
-.careerbtn {
+.careerbtn{
     background-color: #000;
     border: none;
     color: white;
@@ -452,7 +453,7 @@ ul.topnav {
     margin: 4px 45%;
     cursor: pointer;
     flex: 45%;
-    transition-duration: 0.5s;
+    transition-duration: 0.35s;
 }
 .careerbtn:active {
     background-color: dodgerblue;
@@ -462,13 +463,13 @@ ul.topnav {
     background-color: dodgerblue;
     color: white;
 }
-#form1 {
+#crrform{
     display:none;
-}
-#formButton {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    width: 100%;
+    padding: 50px 0;
+    text-align:center;
+    margin-top: 20px;
+   
 }
 
 input[type=text], input[type=tel], input[type=textarea] select, textarea {
@@ -481,6 +482,31 @@ input[type=text], input[type=tel], input[type=textarea] select, textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
-.home {
-    background-image:url("Images/gishome.jpg");
+
+/* Xin Wen dec 7*/
+.remote-64 {
+    padding-top:64px!important;
+    padding-bottom:64px!important
+}
+.remotecontainer:after, .remotecontainer:before{
+    content:"";
+    display:table;
+    clear:both
+}
+.subcontent {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:980px;
+    text-align: left
+}
+.remotep32 {
+    padding-top:16px!important;
+    padding-bottom:16px!important
+}
+.remotetext{
+    color:#757575!important
+}
+.remote-grey{
+    color:#000!important;
+    background-color:#f1f1f1!important
 }
